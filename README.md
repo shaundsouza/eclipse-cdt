@@ -29,12 +29,12 @@ Shaun C D’Souza. Eclipse cdt code analysis and unit testing. PeerJ Preprints, 
 * Create C++ Project using template [testcpp](/testcpp) in eclipse-workspace
 
 * Update sample [eclipse-workspace\testcpp\source.txt](/eclipse-workspace/testcpp/source.txt) in project folder
-	1. First line = target project name [testcpp](/eclipse-workspace/testcpp)
-	1. Second line = target source file [b.cpp](/eclipse-workspace/testcpp/src/b.cpp) in [eclipse-workspace\testcpp\src](/eclipse-workspace/testcpp/src) folder
+	1. First line = #project name [testcpp](/eclipse-workspace/testcpp)
+	1. Second line = source file name [b.cpp](/eclipse-workspace/testcpp/src/b.cpp) in [eclipse-workspace\testcpp\src](/eclipse-workspace/testcpp/src) folder
 
 * Click FakeSources button. Navigate and select [source.txt](/eclipse-workspace/testcpp/source.txt) file
 
-* Fake Sources are generated in [eclipse-workspace\testcpp]((/eclipse-workspace/testcpp) folder
+* Fake Sources are generated in [eclipse-workspace\testcpp](/eclipse-workspace/testcpp) folder
 	* Refer to [debug.log](/expected-output-in-testcpp/debug.log)
 	* Expected output is shown in "expected output in testcpp" folder
 		* [bTest-debug.cpp](/expected-output-in-testcpp/bTest-debug.cpp)
