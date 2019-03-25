@@ -4,7 +4,7 @@ Shaun C D’Souza. Eclipse cdt code analysis and unit testing. PeerJ Preprints, 
 2018. url: https://peerj.com/preprints/27350/
 
 # System requirements
-* Java JDK
+* Install Java JDK
 * Set %JAVA_HOME% to jdk path
 
 # Install Eclipse Luna
@@ -19,7 +19,7 @@ Shaun C D’Souza. Eclipse cdt code analysis and unit testing. PeerJ Preprints, 
 	* cd jar
 
 * Execuate make batch script
-	* [..\make.bat](https://github.com/shaundsouza/eclipse-cdt/blob/master/make.bat)
+	* [..\make.bat](/make.bat)
 
 * Copy generated [..\fakeunittest_1.0.jar](/fakeunittest_1.0.jar) in %ECLIPSE_HOME%\dropins
 
@@ -28,19 +28,19 @@ Shaun C D’Souza. Eclipse cdt code analysis and unit testing. PeerJ Preprints, 
 # Generate Project Fake classes 
 * Create C++ Project using template [testcpp](/testcpp) in eclipse-workspace
 
-* Update sample [eclipse-workspace\testcpp\source.txt](https://github.com/shaundsouza/eclipse-cdt/blob/master/eclipse-workspace/testcpp/source.txt) in project folder
-	1. First line = target project name (testcpp)
-	1. Second line = target source file (b.cpp) in eclipse-workspace\testcpp\src folder
+* Update sample [eclipse-workspace\testcpp\source.txt](/eclipse-workspace/testcpp/source.txt) in project folder
+	1. First line = target project name [testcpp](/eclipse-workspace/testcpp)
+	1. Second line = target source file [b.cpp](/eclipse-workspace/testcpp/src/b.cpp) in [eclipse-workspace\testcpp\src](/eclipse-workspace/testcpp/src) folder
 
-* Click FakeSources button. Navigate and select source.txt file
+* Click FakeSources button. Navigate and select [source.txt](/eclipse-workspace/testcpp/source.txt) file
 
-* Fake Sources are generated in eclipse-workspace\testcpp folder
-	* Refer to debug.log
+* Fake Sources are generated in [eclipse-workspace\testcpp]((/eclipse-workspace/testcpp) folder
+	* Refer to [debug.log](/expected-output-in-testcpp/debug.log)
 	* Expected output is shown in "expected output in testcpp" folder
-		* [bTest-debug.cpp](https://github.com/shaundsouza/eclipse-cdt/blob/master/expected-output-in-testcpp/bTest-debug.cpp)
-		* [Fakeb-debug.cpp](https://github.com/shaundsouza/eclipse-cdt/blob/master/expected-output-in-testcpp/Fakeb-debug.cpp)
-		* [Fakeb-debug.h](https://github.com/shaundsouza/eclipse-cdt/blob/master/expected-output-in-testcpp/Fakeb-debug.h)
-		* [debug.log](https://github.com/shaundsouza/eclipse-cdt/blob/master/expected-output-in-testcpp/debug.log)
+		* [bTest-debug.cpp](/expected-output-in-testcpp/bTest-debug.cpp)
+		* [Fakeb-debug.cpp](/expected-output-in-testcpp/Fakeb-debug.cpp)
+		* [Fakeb-debug.h](/expected-output-in-testcpp/Fakeb-debug.h)
+		* [debug.log](/expected-output-in-testcpp/debug.log)
 
 ![Eclipse CDT](/images/eclipse_cdt.jpg)
 
