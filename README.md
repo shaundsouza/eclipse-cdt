@@ -1,7 +1,6 @@
 # eclipse-cdt
 
-Shaun C D’Souza. Eclipse cdt code analysis and unit testing. PeerJ Preprints, 6:e27350v1,
-2018. url: https://peerj.com/preprints/27350/
+Shaun C D’Souza. Eclipse cdt code analysis and unit testing. PeerJ Preprints, 6:e27350v1, 2018. url: https://peerj.com/preprints/27350/
 
 # System requirements
 * Install Java JDK
@@ -16,10 +15,14 @@ Shaun C D’Souza. Eclipse cdt code analysis and unit testing. PeerJ Preprints, 
 
 # Generate Eclipse dropin jar
 * Navigate to jar folder
-	* cd jar
+```
+cd jar
+```
 
 * Execuate make batch script
-	* [..\make.bat](/make.bat)
+```
+..\make.bat
+```
 
 * Copy generated [..\fakeunittest_1.0.jar](/fakeunittest_1.0.jar) in %ECLIPSE_HOME%\dropins
 
