@@ -1,0 +1,64 @@
+cppProject testcpp /testcpp
+2
+testcpp C:\Users\user\eclipse-workspace\testcpp
+C:\Users\user\eclipse-workspace\testcpp
+src\b.cpp
+visit org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTSimpleDeclaration class b {
+	int d(int a, int b){
+		return 0;
+	}
+	void c(int a){
+		return;
+	}
+};
+declaration org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTSimpleDeclaration class b {
+	int d(int a, int b){
+		return 0;
+	}
+	void c(int a){
+		return;
+	}
+};
+visit org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTFunctionDefinition int d(int a, int b){
+		return 0;
+	}
+declaration org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTFunctionDefinition int d(int a, int b){
+		return 0;
+	}
+C:\Users\user\eclipse-workspace\testcpp\src\b.cpp
+org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTFunctionDefinition@6580f76c
+add
+visit org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTFunctionDefinition void c(int a){
+		return;
+	}
+declaration org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTFunctionDefinition void c(int a){
+		return;
+	}
+C:\Users\user\eclipse-workspace\testcpp\src\b.cpp
+org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTFunctionDefinition@6980d3b3
+add
+src\b.h
+visit org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTSimpleDeclaration class b {
+	int d(int a, int b);
+	void c(int a);
+};
+declaration org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTSimpleDeclaration class b {
+	int d(int a, int b);
+	void c(int a);
+};
+visit org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTSimpleDeclaration int d(int a, int b);
+declaration org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTSimpleDeclaration int d(int a, int b);
+visit org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTSimpleDeclaration void c(int a);
+declaration org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTSimpleDeclaration void c(int a);
+generateClassFake
+b
+printFunction Fakeb-debug.cpp
+b.cpp
+d
+c
+generateClassFake
+b
+Fakeb-debug.h
+generateFakeClassTest
+bTest-debug.cpp
+bTest-debug.cpp

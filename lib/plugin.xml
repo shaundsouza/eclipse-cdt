@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            label="Generate Fake Unit test"
+            visible="true"
+            id="fakeunittest.actionSet">
+         <menu
+               label="File - Fake Unit Test"
+               id="sampleMenu">
+            <separator
+                  name="sampleGroup">
+            </separator>
+         </menu>
+         <action
+               label="FakeSources"   
+               class="fakeunittest.actions.FakeUnitTest"
+               tooltip="Generate Fake Unit test"
+               menubarPath="sampleMenu/sampleGroup"
+               toolbarPath="sampleGroup"
+               id="fakeunittest.actions.FakeUnitTest">
+         </action>
+      </actionSet>
+   </extension>
+
+</plugin>
