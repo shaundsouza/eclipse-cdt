@@ -19,26 +19,28 @@ Shaun C D’Souza. Eclipse cdt code analysis and unit testing. PeerJ Preprints, 
 	* cd jar
 
 * Execuate make batch script
-	* ..\make.bat
+	* [..\make.bat](https://github.com/shaundsouza/eclipse-cdt/blob/master/make.bat)
 
-* Copy generated ..\fakeunittest_1.0.jar in %ECLIPSE_HOME%\dropins
+* Copy generated [..\fakeunittest_1.0.jar](/fakeunittest_1.0.jar) in %ECLIPSE_HOME%\dropins
 
-* Start Eclipse. You should see a FakeSources button / Menu option (see "eclipse cdt.jpg")
+* Start Eclipse. You should see a FakeSources button / Menu option (see [images/eclipse_cdt.jpg](/images/eclipse_cdt.jpg))
 
 # Generate Project Fake classes 
-* Create C++ Project using template "testcpp" in eclipse-workspace
+* Create C++ Project using template [testcpp](/testcpp) in eclipse-workspace
 
-* Update sample eclipse-workspace\testcpp\source.txt in project folder
-	* First line = target project name (testcpp)
-	* Second line = target source file (b.cpp) in eclipse-workspace\testcpp\src folder
+* Update sample [eclipse-workspace\testcpp\source.txt](https://github.com/shaundsouza/eclipse-cdt/blob/master/eclipse-workspace/testcpp/source.txt) in project folder
+	1. First line = target project name (testcpp)
+	1. Second line = target source file (b.cpp) in eclipse-workspace\testcpp\src folder
 
 * Click FakeSources button. Navigate and select source.txt file
 
 * Fake Sources are generated in eclipse-workspace\testcpp folder
 	* Refer to debug.log
 	* Expected output is shown in "expected output in testcpp" folder
-		* bTest-debug.cpp
-		* Fakeb-debug.cpp
-		* Fakeb-debug.h
-		* debug.log
+		* [bTest-debug.cpp](https://github.com/shaundsouza/eclipse-cdt/blob/master/expected-output-in-testcpp/bTest-debug.cpp)
+		* [Fakeb-debug.cpp](https://github.com/shaundsouza/eclipse-cdt/blob/master/expected-output-in-testcpp/Fakeb-debug.cpp)
+		* [Fakeb-debug.h](https://github.com/shaundsouza/eclipse-cdt/blob/master/expected-output-in-testcpp/Fakeb-debug.h)
+		* [debug.log](https://github.com/shaundsouza/eclipse-cdt/blob/master/expected-output-in-testcpp/debug.log)
+
+![Eclipse CDT](/images/eclipse_cdt.jpg)
 
