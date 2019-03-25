@@ -16,10 +16,10 @@ Shaun C D’Souza. Eclipse cdt code analysis and unit testing. PeerJ Preprints, 
 
 # Generate Eclipse dropin jar
 	* Navigate to jar folder
-    cd jar
+		* cd jar
 
 	* Execuate make batch script
-    ..\make.bat
+		* ..\make.bat
 
 	* Copy generated ..\fakeunittest_1.0.jar in %ECLIPSE_HOME%\dropins
 
@@ -29,16 +29,16 @@ Shaun C D’Souza. Eclipse cdt code analysis and unit testing. PeerJ Preprints, 
 	* Create C++ Project using template "testcpp" in eclipse-workspace
 
 	* Update sample eclipse-workspace\testcpp\source.txt in project folder
-	1. First line = target project name (testcpp)
-	1. Second line = target source file (b.cpp) in eclipse-workspace\testcpp\src folder
+		* First line = target project name (testcpp)
+		* Second line = target source file (b.cpp) in eclipse-workspace\testcpp\src folder
 
 	* Click FakeSources button. Navigate and select source.txt file
 
 	* Fake Sources are generated in eclipse-workspace\testcpp folder
 		* Refer to debug.log
 		* Expected output is shown in "expected output in testcpp" folder
-    bTest-debug.cpp
-    Fakeb-debug.cpp
-    Fakeb-debug.h
-    debug.log
+			* bTest-debug.cpp
+			* Fakeb-debug.cpp
+			* Fakeb-debug.h
+			* debug.log
 
