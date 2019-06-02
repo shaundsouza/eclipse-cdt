@@ -2,7 +2,7 @@
 
 #include <tut.h>
 
-using namespace eGlobal <unnamed scope> (org.eclipse.cdt.internal.core.dom.parser.cpp.CPPNamespaceScope@7aa91a69);
+using namespace eGlobal <unnamed scope> (org.eclipse.cdt.internal.core.dom.parser.cpp.CPPNamespaceScope@350c7188);
 
 namespace tut {
 
@@ -20,7 +20,7 @@ struct b_data
 
 typedef test_group<b_data> tg;
 typedef tg::object object;
-tg b_group( "eGlobal <unnamed scope> (org.eclipse.cdt.internal.core.dom.parser.cpp.CPPNamespaceScope@7aa91a69)::b" );
+tg b_group( "eGlobal <unnamed scope> (org.eclipse.cdt.internal.core.dom.parser.cpp.CPPNamespaceScope@350c7188)::b" );
 
 // =================================================
 // Constructor

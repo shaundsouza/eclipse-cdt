@@ -26,7 +26,7 @@ declaration org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTFunctionDefinitio
 		return 0;
 	}
 C:\Users\user\eclipse-workspace\testcpp\src\b.cpp
-org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTFunctionDefinition@4a8b4dd0
+org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTFunctionDefinition@46b6e644
 add
 visit org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTFunctionDefinition void c(int a){
 		return;
@@ -35,7 +35,7 @@ declaration org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTFunctionDefinitio
 		return;
 	}
 C:\Users\user\eclipse-workspace\testcpp\src\b.cpp
-org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTFunctionDefinition@57e21ffb
+org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTFunctionDefinition@3bea06d0
 add
 src\b.h
 visit org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTSimpleDeclaration class b {

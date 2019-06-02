@@ -164,7 +164,7 @@ public class ClassFake_h {
 			}
 		}
 		
-		includeStr += "#include \"" + fakeSource.replaceAll( "src", "unittest" ).replaceAll( ".cpp", ".h\"" ) + "\n\n";
+		includeStr += "#include \"" + fakeSource.replaceAll( "src/", "" ).replaceAll( ".cpp", ".h\"" ) + "\n\n";
 		for( String i : includes ) {	
 			includeStr += "#include \"" + i + "\"\n";
 		}

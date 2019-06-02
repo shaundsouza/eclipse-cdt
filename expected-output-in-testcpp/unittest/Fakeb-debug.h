@@ -1,7 +1,7 @@
 #ifndef _FAKE_null
 #define _FAKE_null
 
-#include "unittest\b.h"
+#include "src\b.h"
 
 
 void printFakeFunction();
@@ -9,7 +9,7 @@ void printFakeFunction();
 #include "Fake.h"
 #include "FakeMethodVerifiers.h"
 
-namespace eGlobal <unnamed scope> (org.eclipse.cdt.internal.core.dom.parser.cpp.CPPNamespaceScope@7aa91a69) {
+namespace eGlobal <unnamed scope> (org.eclipse.cdt.internal.core.dom.parser.cpp.CPPNamespaceScope@350c7188) {
 
 class Fakeb : public Fake, public b
 {
@@ -30,6 +30,6 @@ public:
 
 };
 
-} // namespace eGlobal <unnamed scope> (org.eclipse.cdt.internal.core.dom.parser.cpp.CPPNamespaceScope@7aa91a69)
+} // namespace eGlobal <unnamed scope> (org.eclipse.cdt.internal.core.dom.parser.cpp.CPPNamespaceScope@350c7188)
 
 #endif // _FAKE_null
