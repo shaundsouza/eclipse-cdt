@@ -165,9 +165,9 @@ public class FakeUnitTest implements IWorkbenchWindowActionDelegate {
 	    	if( !fakeSource.startsWith("#") && !fakeSource.isEmpty() ) {
 				print.println(fakeSources.getParentFile().getAbsolutePath());
 
-				File fakeSourceFile = new File( fakeSources.getParentFile().getAbsolutePath() + "/src/" + fakeSource );
+				File fakeSourceFile = new File( fakeSources.getParentFile().getAbsolutePath() + fakeSource );
 
-				IPath path_cpp = Path.fromOSString( "src/" + fakeSource );
+				IPath path_cpp = Path.fromOSString( fakeSource );
 				print.println(path_cpp.toOSString());
 				ICElement iceElement_cpp = cppProject.findElement( path_cpp );				
 				ITranslationUnit translationUnit_cpp = ( ITranslationUnit ) iceElement_cpp.getAdapter( ITranslationUnit.class );
@@ -192,7 +192,7 @@ public class FakeUnitTest implements IWorkbenchWindowActionDelegate {
 	    		IFile file_h= ResourcesPlugin.getWorkspace().getRoot().getFile( path_h );   
 	    		ITranslationUnit translationUnit_h = ( ITranslationUnit ) CoreModel.getDefault().create( file_h );
 */
-				IPath path_h = Path.fromOSString( "src/" + fakeSource.replace( ".cpp" , ".h" ) );
+				IPath path_h = Path.fromOSString( fakeSource.replace( ".cpp" , ".h" ) );
 				print.println(path_h.toOSString());
 				ICElement iceElement_h = cppProject.findElement( path_h );			
 				ITranslationUnit translationUnit_h = ( ITranslationUnit ) iceElement_h.getAdapter( ITranslationUnit.class );

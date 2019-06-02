@@ -26,7 +26,7 @@ declaration org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTFunctionDefinitio
 		return 0;
 	}
 C:\Users\user\eclipse-workspace\testcpp\src\b.cpp
-org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTFunctionDefinition@6580f76c
+org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTFunctionDefinition@1fbb2a97
 add
 visit org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTFunctionDefinition void c(int a){
 		return;
@@ -35,7 +35,7 @@ declaration org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTFunctionDefinitio
 		return;
 	}
 C:\Users\user\eclipse-workspace\testcpp\src\b.cpp
-org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTFunctionDefinition@6980d3b3
+org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTFunctionDefinition@7561dfe3
 add
 src\b.h
 visit org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTSimpleDeclaration class b {
@@ -52,13 +52,13 @@ visit org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTSimpleDeclaration void 
 declaration org.eclipse.cdt.internal.core.dom.parser.cpp.CPPASTSimpleDeclaration void c(int a);
 generateClassFake
 b
-printFunction Fakeb-debug.cpp
-b.cpp
+printFunction unittest\Fakeb-debug.cpp
+src\b.cpp
 d
 c
 generateClassFake
 b
-Fakeb-debug.h
+unittest\Fakeb-debug.h
 generateFakeClassTest
-bTest-debug.cpp
-bTest-debug.cpp
+unittest\bTest-debug.cpp
+unittest\bTest-debug.cpp

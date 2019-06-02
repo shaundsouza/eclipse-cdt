@@ -1,11 +1,11 @@
-#include "Fakeb.h"
+#include "src\Fakeb.h"
 
 void printFakeFunction();
 
 namespace FakebNamespace {
 } // namespace FakebNamespace
 
-namespace eGlobal <unnamed scope> (org.eclipse.cdt.internal.core.dom.parser.cpp.CPPNamespaceScope@5ac30b75) {
+namespace eGlobal <unnamed scope> (org.eclipse.cdt.internal.core.dom.parser.cpp.CPPNamespaceScope@40c78bd1) {
 
 
 Fakeb::Fakeb()
@@ -51,4 +51,4 @@ void Fakec(int a)
   return fake_c( a );
 }
 
-} // namespace eGlobal <unnamed scope> (org.eclipse.cdt.internal.core.dom.parser.cpp.CPPNamespaceScope@5ac30b75)
+} // namespace eGlobal <unnamed scope> (org.eclipse.cdt.internal.core.dom.parser.cpp.CPPNamespaceScope@40c78bd1)

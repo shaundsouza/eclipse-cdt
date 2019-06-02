@@ -169,7 +169,7 @@ public class ClassFake_cpp {
 	}
 	
 	private String printIncludes() throws CoreException, IOException { 
-		String includeStr = "#include \"" + fakeSource.replaceAll( "src/", "" ).replaceAll( fakeClass.getName() + ".cpp", "Fake" + fakeClass.getName() + ".h\"" ) + "\n";			
+		String includeStr = "#include \"" + fakeSource.replaceAll( "src", "unittest" ).replaceAll( fakeClass.getName() + ".cpp", "Fake" + fakeClass.getName() + ".h\"" ) + "\n";			
 		print.println( fakeSource );
 		return includeStr;
 	}
