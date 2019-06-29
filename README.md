@@ -30,8 +30,8 @@ cd jar
 * Start Eclipse. You should see a FakeSources button / Menu option (see [images/eclipse_cdt.jpg](/images/eclipse_cdt.jpg))
 
 # Generate Project Fake classes 
-* Create C++ Project using template [testcpp](/testcpp) in eclipse-workspace
-
+* Create new C/C++ Project in Eclipse 'testcpp'
+	* Copy files, sub-directories in [testcpp/*](/eclipse-workspace/testcpp) in C:\Users\user\eclipse-workspace folder
 * Update sample [eclipse-workspace\testcpp\source.txt](/eclipse-workspace/testcpp/source.txt) in project folder
 	1. First line = #project name [testcpp](/eclipse-workspace/testcpp)
 	1. Second line = source file name [src\b.cpp](/eclipse-workspace/testcpp/src/b.cpp) in [eclipse-workspace\testcpp\src](/eclipse-workspace/testcpp/src) folder
