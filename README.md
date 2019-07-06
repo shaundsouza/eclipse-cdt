@@ -32,6 +32,9 @@ cd jar
 # Generate Project Fake classes 
 * Create new C/C++ Project in Eclipse 'testcpp'
 	* Copy files, sub-directories in [testcpp/*](/eclipse-workspace/testcpp) in C:\Users\user\eclipse-workspace\testcpp folder
+```
+xcopy eclipse-workspace\testcpp\* c:\Users\user\eclipse-workspace\testcpp\ /E
+```
 * Update sample [eclipse-workspace\testcpp\source.txt](/eclipse-workspace/testcpp/source.txt) in project folder if using a new project name
 	1. First line = #project name [testcpp](/eclipse-workspace/testcpp)
 	1. Second line = source file name [src\b.cpp](/eclipse-workspace/testcpp/src/b.cpp) in [eclipse-workspace\testcpp\src](/eclipse-workspace/testcpp/src) folder
