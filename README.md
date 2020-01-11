@@ -1,5 +1,5 @@
 # eclipse-cdt
-[![DOI](https://zenodo.org/badge/176948075.svg)](https://zenodo.org/badge/latestdoi/176948075)
+[![DOI](https://zenodo.org/badge/doi/10.5061/dryad.5q0g45h.svg)](https://doi.org/10.5061/dryad.5q0g45h)
 
 Shaun C D’Souza. Eclipse cdt code analysis and unit testing. PeerJ Preprints, 6:e27350v1, 2018. url: https://peerj.com/preprints/27350/
 
